@@ -7,7 +7,7 @@
                     v-for="f of Frase"
                     :key="f.id">
                     {{ f.advice }}
-                </p>
+                 </p>
             </ul>
         </div>
     </div>

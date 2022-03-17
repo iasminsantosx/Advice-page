@@ -2,20 +2,18 @@
   <v-app>
       <TopBar/>
     <v-main>
-     <Home/>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 import TopBar from './components/shared/TopBar'
-import Home from './components/Home'
 export default {
   name: 'App',
 
   components: {
    TopBar,
-   Home,
   },
 
   data: () => ({
